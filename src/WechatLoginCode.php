@@ -7,15 +7,13 @@ class WechatLoginCode extends Controller{
     /*******************************************************************************************************************************************************************************************************************
      * 配置项
      */
-    private $token = 'xg347777459'; //微信公众号服务器配置令牌
+    private $token = ''; //微信公众号服务器配置令牌
     private $wxgzh = []; //公众号 暂未使用
     private $bd_ai = []; //百度-理解与交互技术UNIT
     private $post_obj; //接收微信服务器推送的消息
     private $user_info; //用户信息
     private $user_auth = []; //用户授权
     private $auth = [
-        'WXGZH_ZDHF', //自动回复模板
-        'WXGZH_JZB'   //记账本
     ]; //本接口涉及权限
     //信息类型
     private $type_arr = [
