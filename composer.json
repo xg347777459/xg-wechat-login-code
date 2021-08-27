@@ -1,0 +1,17 @@
+{
+    "name": "xg/wechat-login-code",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "gang.xiong",
+            "email": "gang.xiong@huolala.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+	    "psr-4": {
+	      	"Xg\\": "src/"
+	    }
+  	}
+}
